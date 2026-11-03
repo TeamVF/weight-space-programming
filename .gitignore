@@ -1,0 +1,23 @@
+# Author: wanghaobo
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+config.toml
+
+# Local experiment output. The harness creates runs/ on first use.
+runs/
+artifacts/
+*.npy
+*.npz
+*.pt
+*.pth

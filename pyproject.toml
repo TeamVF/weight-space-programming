@@ -1,0 +1,22 @@
+# Author: wanghaobo
+
+[project]
+name = "weight-space-programming"
+version = "0.1.0"
+description = "Research and reproduce Weight-Space Programming experiments (LLM native read/write of neural network weights)"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "wanghaobo" }]
+dependencies = []
+
+[project.optional-dependencies]
+weights = ["numpy>=1.26"]
+torch = ["torch>=2.2"]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["harness", "wsp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

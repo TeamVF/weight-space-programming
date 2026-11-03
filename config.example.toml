@@ -1,0 +1,9 @@
+# Author: wanghaobo
+# Copy to config.toml (gitignored) or pass the path in WSP_CONFIG.
+# Environment variables override this file: WSP_MODEL, WSP_EFFORT,
+# WSP_RUNS_DIR, WSP_SANDBOX_TIMEOUT.
+
+model = "mock"
+effort = "high"
+runs_dir = "runs"
+sandbox_timeout_s = 5
